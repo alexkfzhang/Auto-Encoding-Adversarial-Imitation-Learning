@@ -27,23 +27,23 @@ Configurations:
 
 cd #this fold
 
-export ENV_ID="Walker2d-v2"
+        export ENV_ID="Walker2d-v2"
 
-export SAMPLE_STOCHASTIC="False"  
+        export SAMPLE_STOCHASTIC="False"  
 
-export STOCHASTIC_POLICY="False" 
+        export STOCHASTIC_POLICY="False" 
 
 '''for non-noisy expert demonstrations setting'''
 
-export PICKLE_PATH=data/Walker2d-v2.pkl
+        export PICKLE_PATH=data/Walker2d-v2.pkl
 
 '''for noisy expert demonstrations setting'''
 
-export PICKLE_PATH=data/Walker2d-Noisy.pkl
+        export PICKLE_PATH=data/Walker2d-Noisy.pkl
 
 
 '''
-python main.py --env_id $ENV_ID --expert_path $PICKLE_PATH
+        python main.py --env_id $ENV_ID --expert_path $PICKLE_PATH
 '''
 
 
@@ -52,7 +52,7 @@ Our AEAIL train the RL agent on Walker2d-v2, Hopper-v2 and Swimmer-v2 without BC
 Default setting is without BC pre-training, to train the model with BC pre-training pls refer to main.py and set the "--pretrained" parameter to be True or just run:
 
 '''
-python main.py --env_id $ENV_ID --expert_path $PICKLE_PATH --pretrained True --BC_max_iter 10000
+        python main.py --env_id $ENV_ID --expert_path $PICKLE_PATH --pretrained True --BC_max_iter 10000
 '''
 
 Dataset we have provided in this folder
