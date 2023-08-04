@@ -15,6 +15,7 @@ sudo apt-get update && sudo apt-get install cmake libopenmpi-dev python3-dev zli
 
 
 To run the code, you need to install OpenAI Gym (link: https://github.com/openai/gym).  
+
 We use the robotics environment in OpenAI Gym, which needs the MuJoCu physics engine (link: http://www.mujoco.org/).   
 
 The experiments were carried out on a 8-GPUs and 40-CPUs server.  
@@ -27,13 +28,17 @@ Configurations:
 cd #this fold
 
 export ENV_ID="Walker2d-v2"
-export SAMPLE_STOCHASTIC="False"           
+
+export SAMPLE_STOCHASTIC="False"  
+
 export STOCHASTIC_POLICY="False" 
 
 '''for non-noisy expert demonstrations setting'''
+
 export PICKLE_PATH=data/Walker2d-v2.pkl
 
 '''for noisy expert demonstrations setting'''
+
 export PICKLE_PATH=data/Walker2d-Noisy.pkl
 
 
@@ -51,7 +56,9 @@ python main.py --env_id $ENV_ID --expert_path $PICKLE_PATH --pretrained True --B
 '''
 
 Dataset we have provided in this folder
+
 Main Text Experiment Dataset:
+
 data: Walker2d non-noisy and noisy dataset, each with 25 trajectories
 
 
