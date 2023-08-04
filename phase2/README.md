@@ -1,6 +1,6 @@
 # Auto-Encoding Adversarial Imitation Learning
 
-Here is the code for our NeurIPS 2023 submission paper ID: 2321 -- "Auto-Encoding Adversarial Imitation Learning".
+Here is the code for our paper -- "Auto-Encoding Adversarial Imitation Learning".
 
 Our code is based on simple version of OpenAI Baselines (link: https://github.com/andrewliao11/gail-tf).   
 
