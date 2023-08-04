@@ -1,10 +1,12 @@
 # Auto-Encoding Adversarial Imitation Learning
 
 Here is the code for our paper:
-  
-      Kaifeng Zhang, Rui Zhao, Ziming Zhang and Yang Gao. 
-      
-      "Auto-Encoding Adversarial Imitation Learning".
+
+      @article{aeail,
+            author    = {Zhang, Kaifeng and Zhao, Rui and Zhang, Ziming and Gao, Yang},
+            title     = {Auto-Encoding Adversarial Imitation Learning},
+            year      = {2023},
+      }
 
 The experiments are divided into two phases:
   
