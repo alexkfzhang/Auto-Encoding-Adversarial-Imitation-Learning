@@ -3,7 +3,7 @@
 Here is the code for our paper:
   
       Kaifeng Zhang, Rui Zhao, Ziming Zhang and Yang Gao. 
-      "Auto-Encoding Adversarial Imitation Learning".
+        "Auto-Encoding Adversarial Imitation Learning".
 
 The experiments are divided into two phases:
   
