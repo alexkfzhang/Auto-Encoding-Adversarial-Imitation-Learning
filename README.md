@@ -3,9 +3,9 @@
 Here is the code for our paper:
 
       @article{aeail,
-            author    = {Zhang, Kaifeng and Zhao, Rui and Zhang, Ziming and Gao, Yang},
-            title     = {Auto-Encoding Adversarial Imitation Learning},
-            year      = {2023},
+            author = {Zhang, Kaifeng and Zhao, Rui and Zhang, Ziming and Gao, Yang},
+            title = {Auto-Encoding Adversarial Imitation Learning},
+            year = {2023}
       }
 
 The experiments are divided into two phases:
