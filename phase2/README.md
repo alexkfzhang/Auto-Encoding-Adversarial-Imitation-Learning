@@ -43,6 +43,7 @@ for noisy expert demonstrations setting
 
 
 
+run the experiments:
 
         python main.py --env_id $ENV_ID --expert_path $PICKLE_PATH
 
