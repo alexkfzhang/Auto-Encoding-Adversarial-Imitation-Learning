@@ -30,7 +30,7 @@ How to run this code, take Walker2d as a example,
 
 Configurations:
 
-cd #this fold
+      cd #this fold
 
       export ENV_ID="Walker2d-v2"
       export SAMPLE_STOCHASTIC="False"           
